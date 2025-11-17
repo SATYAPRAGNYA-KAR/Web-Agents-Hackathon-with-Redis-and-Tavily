@@ -103,3 +103,9 @@ If you encounter Python import errors:
 ```bash
 npm install:agent
 ```
+
+
+# Need to start Three different Servers in different Terminals for making the App to work-
+1. Backend Server start: uvicorn server:app --reload --port 8124
+2. Langgraph: langgraph dev
+3. Frontend: pnpm dev
